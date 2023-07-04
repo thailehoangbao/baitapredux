@@ -82,10 +82,25 @@ export default function PhongVe() {
                     <div className='my-4'>Email:  {thongTinNguoiDung.email}</div>
                     <div className='my-4'>SDT:  +84{thongTinNguoiDung.phoneNumber}</div>
                     <hr />
-                    <div className='flex flex-col justify-end mb-0 items-center'>
+                    <div className='flex flex-col justify-end mb-5 items-center'>
                         <button className='text-white w-full py-2 rounded-lg buttonAction mr-10' >
                             ĐẶT VÉ
                         </button>
+                    </div>
+                    <hr />
+                    <div className='grid grid-cols-3'>
+                        <div>
+                            <p className='ghe gheDuocChon '></p>
+                            <p className='font-thin text-left text-xs'>Ghế Được Chọn</p>
+                        </div>
+                        <div>
+                            <p className='ghe gheDangChon' style={{backgroundColor:"white"}}></p>
+                            <p className='font-thin text-left text-xs'>Ghế Đang Chọn</p>
+                        </div>
+                        <div>
+                            <p className='ghe' style={{height:"35px"}}></p>
+                            <p className='font-thin text-left text-xs'>Ghế Chưa Chọn</p>
+                        </div>
                     </div>
                 </div>
             </div>
