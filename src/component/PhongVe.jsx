@@ -33,7 +33,7 @@ export default function PhongVe() {
 
 
     return (
-        <div className='min-h-screen p-0'>
+        <div className='min-h-screen p-0 bg'>
             <div className='grid grid-cols-12'>
                 <div className='col-span-9 col-start-1'>
                     <div className='mt-5 w-full'>

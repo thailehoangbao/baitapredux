@@ -93,3 +93,10 @@
 .ticketAction {
     @apply transition ease-in-out delay-150 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 hover:text-white cursor-pointer;
 }
+
+.bg {
+    background-image: url(./../img/bgmovie.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
